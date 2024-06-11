@@ -18,7 +18,7 @@ import {RiotApi, Constants, LolApi} from 'twisted'
 export class HomeComponent {  
     
   submit(playerName: string){
-    const api = new LolApi({key:'RGAPI-737b63e7-9552-4d68-8e3a-a374fdc4cb45'})
+    const api = new LolApi({key:'RGAPI-737b63e7-9552-4d68-8e3a-'})
     const playerObject = api.Summoner.getByPUUID(playerName, Constants.Regions.EU_WEST)
     console.log(playerObject)
   }
