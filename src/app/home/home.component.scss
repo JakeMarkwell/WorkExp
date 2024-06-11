@@ -1,0 +1,37 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 4; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; 
+    }
+    .div2 { grid-area: 2 / 2 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+ }
+    .div3 { grid-area: 2 / 1 / 4 / 2; }
+    .div4 { grid-area: 2 / 3 / 4 / 4; }
+
+
+
+.search-container
+{
+
+}
+.card-container {
+    margin: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    height: 90%;
+}
